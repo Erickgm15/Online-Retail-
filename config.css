@@ -1,0 +1,29 @@
+.div-log {
+  position: relative;
+  margin-left: 35rem;
+  height: 875px;
+  width: 414px;
+  border-radius: 10px;
+}
+
+.Log {
+  height: 875px;
+  width: 414px;
+  display: block;
+}
+
+.btn1 {
+  position: absolute;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 222px;
+  height: 54px;
+  border-radius: 15px;
+  border: 1px solid rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  line-height: 54px;
+  cursor: pointer;
+}
+
