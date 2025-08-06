@@ -18,7 +18,8 @@ export function banner2() {
     p1.textContent = "Each men and women has their own style, Geeta helps you to create your unique style.";
     login.appendChild(p1);
 
-    let aBoton1 = document.createElement("div");
+    let aBoton1 = document.createElement("a");
+    aBoton1.href = "Pages/login/login.html";
     aBoton1.className = "div-boton2";
     aBoton1.textContent = "LOG IN";
     login.appendChild(aBoton1);
@@ -28,5 +29,12 @@ export function banner2() {
     span1.textContent = "----OR----";
     aBoton1.appendChild(span1);
 
+    let aBoton2 = document.createElement("a");
+    aBoton2.href = "Pages/Register/register.html";
+    aBoton2.className = "div-boton22";
+    aBoton2.textContent = "REGISTER";
+    login.appendChild(aBoton2);
+
     return login;
 }
+
