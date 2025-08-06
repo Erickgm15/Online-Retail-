@@ -1,37 +1,4 @@
-
-export function login(){
-
-    let login = document.createElement("div");
-    login.className="div-banner2";
+import { banner2 } from "../../../Componente/bannerLogin/bannerlogin.js";
 
 
-    let span = document.createElement("span");
-    span.className="span-banner2";
-    span.textContent= "Geeta.";
-    login.appendChild(span);
-
-    let p = document.createElement("p");
-    p.className = "p-banner2";
-    p.textContent = "Create your fashion in your own way";
-    login.appendChild(p);
-
-    let p1 = document.createElement("p");
-    p1.className = "p1-banner2";
-    p1.textContent = "Each men and women has their own style, Geeta help you to create your unique style. ";
-    login.appendChild(p1);
-
-
-    let aBoton1 = document.createElement("a");
-   
-    aBoton1.href = "Pages/Login/login2.html";
-    aBoton1.className = "div-boton2";
-    aBoton1.textContent = "LOGIN ON  ";
-    login.appendChild(aBoton1);
-
-
-
-    return login;
-}
-
-document.body.appendChild(login());
-
+document.body.appendChild(banner2());
