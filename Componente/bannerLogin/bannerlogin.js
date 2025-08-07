@@ -26,7 +26,7 @@ export function banner2() {
 
     let span1 = document.createElement("span");
     span1.className = "span-boton2";
-    span1.textContent = "----OR----";
+    span1.textContent = "-OR-";
     aBoton1.appendChild(span1);
 
     let aBoton2 = document.createElement("a");
