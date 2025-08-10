@@ -19,7 +19,7 @@ export function banner2() {
     login.appendChild(p1);
 
     let aBoton1 = document.createElement("a");
-    aBoton1.href = "Pages/login/login.html";
+    aBoton1.href = "../Login2/login2.html";
     aBoton1.className = "div-boton2";
     aBoton1.textContent = "LOG IN";
     login.appendChild(aBoton1);
