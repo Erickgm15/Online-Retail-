@@ -17,5 +17,19 @@ export function banner3() {
     p1.textContent = "LOG IN  ";
     login.appendChild(p1);
 
+    let p2 = document.createElement("p");
+    p2.className = "p2-banner3";
+    p2.textContent = "Email address";
+    login.appendChild(p2);
+
+    let div = document.createElement("div");
+    div.className = "div2-banner3"; 
+    login.appendChild(div);
+
+    let p3 = document.createElement("p")
+    p3.className = "p3-banner3"
+    p3.textContent = "Password"
+    login.appendChild(p3)
+
     return login; 
 }
